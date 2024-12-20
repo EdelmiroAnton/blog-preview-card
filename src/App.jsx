@@ -3,7 +3,7 @@ function App() {
 
   return (
     <>
-    <div className="bg-red-300">
+    <div className="bg-blue-300">
       VITE AND TAILWIND OK!!
     </div>
     </>
