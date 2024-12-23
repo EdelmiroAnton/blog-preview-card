@@ -9,7 +9,17 @@ function App() {
       <div className="p-6">
         <img src={blog_image} alt="blog image" />
       </div>
-      <div>content</div>
+      <section
+        aria-label="main content of the card"
+        className="w-[279px] h-[173px] border-solid border-black border-2 mx-auto"
+      >
+        <div
+          aria-label="Learning"
+          className="w-[73px] h-[26px] bg-myYellow rounded-md flex justify-center items-center"
+        >
+          <h3 className="font-Figtree text-center text-[12px]">Learning</h3>
+        </div>
+      </section>
       <div>author</div>
     </main>
   );
