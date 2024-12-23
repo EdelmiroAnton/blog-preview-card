@@ -24,9 +24,9 @@ function App() {
         <p className="font-Figtree font-medium text-[12px] mt-[12px] text-myGrey">
           Published 21 Dec 2023
         </p>
-        <p className="font-Figtree font-extrabold mt-[12px]">
+        <h1 className="font-Figtree font-extrabold mt-[12px] text-[20px]">
           HTML & CSS foundations
-        </p>
+        </h1>
         <p className="font-Figtree font-medium text-myGreyParagraph text-sm mt-[12px]">
           These languages are the backbone of every website, defining structure,
           content, and presentation.
