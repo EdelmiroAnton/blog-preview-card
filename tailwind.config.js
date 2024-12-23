@@ -14,6 +14,9 @@ export default {
       fontFamily: {
         Figtree: ["Figtree, serif"],
       },
+      dropShadow: {
+        myDropShadow: "0px 2px 4px rgba(107, 107, 107, 1)",
+      },
     },
   },
   plugins: [],
