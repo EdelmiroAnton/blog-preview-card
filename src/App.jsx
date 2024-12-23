@@ -11,7 +11,7 @@ function App() {
       </div>
       <section
         aria-label="main content of the card"
-        className="w-[279px] h-[173px] border-solid border-black border-2 mx-auto"
+        className="w-[279px] h-[173px] mx-auto"
       >
         <div
           aria-label="Learning"
@@ -23,6 +23,13 @@ function App() {
         </div>
         <p className="font-Figtree font-medium text-[12px] mt-[12px] text-myGrey">
           Published 21 Dec 2023
+        </p>
+        <p className="font-Figtree font-extrabold mt-[12px]">
+          HTML & CSS foundations
+        </p>
+        <p className="font-Figtree font-medium text-myGreyParagraph text-sm mt-[12px]">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
         </p>
       </section>
       <div>author</div>
