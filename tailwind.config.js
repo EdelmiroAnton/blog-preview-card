@@ -6,6 +6,7 @@ export default {
       colors: {
         myYellow: "#F4D04E",
         myGrey: "#111111",
+        myGreyParagraph: "#6B6B6B",
       },
       boxShadow: {
         cardShadow: "9px 9px 0 0 #000000",
