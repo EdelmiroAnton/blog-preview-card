@@ -1,4 +1,5 @@
 import blog_image from "../src/assets/images/blog_img.svg";
+import user_image from "../src/assets/images/image-avatar.webp";
 
 function App() {
   return (
@@ -32,7 +33,12 @@ function App() {
           content, and presentation.
         </p>
       </section>
-      <div>author</div>
+      <footer className="flex place-content-between items-center w-[129px] h-[32px] ml-6 mt-6 ">
+        <img src={user_image} alt="user image" className="w-8 h-8" />
+        <p className="text-myGrey font-Figtree font-extrabold text-[14px]">
+          <span className="drop-shadow-myDropShadow"> Greg Hooper</span>
+        </p>
+      </footer>
     </main>
   );
 }
