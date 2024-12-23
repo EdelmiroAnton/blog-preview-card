@@ -6,6 +6,9 @@ export default {
       colors: {
         myYellow: "#F4D04E",
       },
+      boxShadow: {
+        cardShadow: " 9px 9px 0 0 #000000"
+      }
     },
   },
   plugins: [],

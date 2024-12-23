@@ -1,8 +1,11 @@
-import blog_image from "../src/assets/images/blog_img.svg"
+import blog_image from "../src/assets/images/blog_img.svg";
 
 function App() {
   return (
-    <main className="w-[327px] h-[501px] border-solid border-2 border-black flex flex-col">
+    <main
+      className="bg-white w-[327px] h-[501px] shadow-cardShadow rounded-2xl  flex flex-col 
+    sm:border-solid sm:border-black sm:border-[1px]"
+    >
       <div>
         <img src={blog_image} alt="blog image" />
       </div>
