@@ -6,7 +6,7 @@ function App() {
       className="bg-white w-[327px] h-[501px] shadow-cardShadow rounded-2xl  flex flex-col 
     sm:border-solid sm:border-black sm:border-[1px]"
     >
-      <div>
+      <div className="p-6">
         <img src={blog_image} alt="blog image" />
       </div>
       <div>content</div>
