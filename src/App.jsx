@@ -1,7 +1,20 @@
 import mobile_blog_image from "../src/assets/images/mobile_blog_image.png";
+import desktop_blog_image from "../src/assets/images/desktop_blog_image.png";
 import user_image from "../src/assets/images/image-avatar.webp";
+import { useState } from "react";
+import { useEffect } from "react";
 
 function App() {
+  const [width, setWidth] = useState(window.innerWidth);
+
+  const handleResize = () => {
+    setWidth(window.innerWidth);
+  };
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <main
       className="bg-white w-[327px] h-[501px] shadow-cardShadow rounded-2xl  flex flex-col 
@@ -10,14 +23,21 @@ function App() {
     desktop:border-[1px] desktop:w-[384px] 
     desktop:h-[522px]"
     >
-      <div className="mt-6 mb-6 mx-auto desktop:w-[336px]">
-        <img
-          src={mobile_blog_image}
-          alt="blog image"
-          className="w-full h-[200px]"
-        />
+      <div className="mt-6 mb-6 mx-auto">
+        {width >= 1440 ? (
+          <img
+            alt="blog image"
+            className="w-full h-[200px]"
+            src={desktop_blog_image}
+          />
+        ) : (
+          <img
+            alt="blog image"
+            className="w-full h-[200px]"
+            src={mobile_blog_image}
+          />
+        )}
       </div>
-
       <section
         aria-label="main content of the card"
         className="w-[279px] h-[173px] mx-auto desktop:w-[336px] "
