@@ -15,7 +15,7 @@ export default {
         Figtree: ["Figtree, serif"],
       },
       dropShadow: {
-        myDropShadow: "0px 3px 2px rgba(107, 107, 107, 1)",
+        myDropShadow: "0px 3px 3px rgba(107, 107, 107, 1)",
       },
     },
   },
