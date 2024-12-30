@@ -40,7 +40,7 @@ function App() {
       </div>
       <section
         aria-label="main content of the card"
-        className="w-[279px] h-[173px] mx-auto desktop:w-[336px] "
+        className="w-[279px] h-[173px] mx-auto desktop:w-[336px]"
       >
         <div
           aria-label="Learning"
@@ -53,7 +53,7 @@ function App() {
         <p className="font-Figtree font-medium text-[12px] mt-[12px] text-myGrey desktop:text-[14px]">
           Published 21 Dec 2023
         </p>
-        <h1 className="font-Figtree font-extrabold mt-[12px] text-[20px] desktop:text-[1.5rem]">
+        <h1 className="font-Figtree font-extrabold mt-[12px] text-[20px] desktop:text-[1.5rem] hover:desktop:cursor-pointer hover:desktop:text-myYellow">
           HTML & CSS foundations
         </h1>
         <p className="font-Figtree font-medium text-myGreyParagraph text-sm mt-[12px] desktop:text-[1rem]">
