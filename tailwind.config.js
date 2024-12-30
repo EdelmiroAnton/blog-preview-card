@@ -17,6 +17,9 @@ export default {
       dropShadow: {
         myDropShadow: "0px 3px 3px rgba(107, 107, 107, 1)",
       },
+      screens: {
+        desktop: "1440px",
+      },
     },
   },
   plugins: [],
